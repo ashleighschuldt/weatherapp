@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #6297B6;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+body{
+  background-color: #6297B6;
+  font-family: 'Nunito', sans-serif;
+}
+.city{
+  background-color: #6297B6;
+  border: none;
+  text-align: center;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  padding: 4px;
+  color: #cccccc;
+
+}
+.forecast{
+  display: flex;
+  margin: 0% 10%;
+}
+.forecast-cards {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  width: 20%;
+  min-width: 100px;
+  box-shadow: 2px 1px 10px -1px #464040;
+}
+h2 {
+  color: white;
+}
+select {
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-right: 35px;
+}
+button {
+  border-radius: 4px;
+  background-color: white;
+  color: #6297B6;
+  padding: 3px 48px;
+  margin: 10px;
+}
+.searches {
+  color: #cccccc;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  font-size: 25px; 
+}
+p.title {
+  color: #cccccc;
+  font-size: 45px;
+}
+p.title1 {
+  font-size: 60px;
+}
